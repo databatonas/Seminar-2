@@ -4,7 +4,7 @@
 
 Console.WriteLine("Введите число (используйте запятую при введении дробного числа)");
 Console.ForegroundColor = ConsoleColor.Blue;/*Вывод в консоль синим цветом*/
-double a = Convert.ToDouble(Console.ReadLine());/*Возможность вывода лробного числа*/
+double a = Convert.ToDouble(Console.ReadLine());/*Возможность вывода дробного числа*/
 Console.ForegroundColor = ConsoleColor.White;/*Вывод в консоль белым цветом*/
 
 if(a % 7 == 0 && a % 23 == 0)/*Если омтаток от деления числа а на 7 равен нулю и 
